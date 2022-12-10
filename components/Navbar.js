@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className=' py-4 sticky top-0 z-50 shadow-lg shadow-black/10 bg-dark'>
             <div className='flex justify-between items-center px-4 lg:px-16'>
                 <div className="grid place-items-center ">
-                    <Image src="/assets/profile.jpg" alt="/" width={40} height={40} />
+                    <Image src="/assets/logo.png" alt="/" width={40} height={40} />
 
                 </div>
                 <ul className="hidden md:flex gap-8 uppercase">
@@ -42,7 +42,7 @@ const Navbar = () => {
                     'fixed top-0 left-[-100%]  p-10 bg-dark ease-in duration-500'
                 }>
                     <div className=" w-full flex justify-between items-center ">
-                        <Image src="/assets/profile.jpg" alt="/" width={40} height={40} />
+                        <Image src="/assets/logo.png" alt="/" width={40} height={40} />
                         <div onClick={handleNav} className="p-2 rounded-full bg-brand cursor-pointer">
                             <AiOutlineClose size={20} />
                         </div>

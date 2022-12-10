@@ -68,7 +68,7 @@ const Skills = () => {
     ]
 
     return (
-        <div className="w-full h-screen">
+        <div className="w-full">
             <div className="max-w-[1240px] w-full h-full mx-auto px-4">
                 <p className="text-lg text-brand tracking-widest font-semibold uppercase ">Skills</p>
                 <h2 className="md:text-4xl">What I Can Do</h2>
