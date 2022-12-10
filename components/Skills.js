@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Skill from "./Skill";
 
 
@@ -72,9 +73,114 @@ const Skills = () => {
                 <p className="text-lg text-brand tracking-widest font-semibold uppercase ">Skills</p>
                 <h2 className="md:text-4xl">What I Can Do</h2>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 my-6">
-                    {
-                        skills.map((skill, i) => <Skill key={i} skill={skill} />)
-                    }
+                    <div className="rounded-lg grid grid-cols-3 bg-zinc-900 p-10 shadow-lg shadow-black/40">
+                        <Image src={"/assets/skills/html.png"} alt="" width={64} height={64} />
+                        <div className="col-span-2">
+                            <p className="text-brand text-lg font-semibold">HTML</p>
+                            <div className="bg-brand/20 h-2 mt-4 w-full rounded-full">
+                                <div className={`w-[85%] bg-brand h-2 rounded-full`}></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="rounded-lg grid grid-cols-3 bg-zinc-900 p-10 shadow-lg shadow-black/40">
+                        <Image src={"/assets/skills/css.png"} alt="" width={64} height={64} />
+                        <div className="col-span-2">
+                            <p className="text-brand text-lg font-semibold">CSS</p>
+                            <div className="bg-brand/20 h-2 mt-4 w-full rounded-full">
+                                <div className={`w-[80%] bg-brand h-2 rounded-full`}></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="rounded-lg grid grid-cols-3 bg-zinc-900 p-10 shadow-lg shadow-black/40">
+                        <Image src={"/assets/skills/javascript.png"} alt="" width={64} height={64} />
+                        <div className="col-span-2">
+                            <p className="text-brand text-lg font-semibold">JavaScript</p>
+                            <div className="bg-brand/20 h-2 mt-4 w-full rounded-full">
+                                <div className={`w-[85%] bg-brand h-2 rounded-full`}></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="rounded-lg grid grid-cols-3 bg-zinc-900 p-10 shadow-lg shadow-black/40">
+                        <Image src={"/assets/skills/react.png"} alt="" width={64} height={64} />
+                        <div className="col-span-2">
+                            <p className="text-brand text-lg font-semibold">React</p>
+                            <div className="bg-brand/20 h-2 mt-4 w-full rounded-full">
+                                <div className={`w-[75%] bg-brand h-2 rounded-full`}></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="rounded-lg grid grid-cols-3 bg-zinc-900 p-10 shadow-lg shadow-black/40">
+                        <Image src={"/assets/skills/bootstrap.png"} alt="" width={64} height={64} />
+                        <div className="col-span-2">
+                            <p className="text-brand text-lg font-semibold">Bootstrap</p>
+                            <div className="bg-brand/20 h-2 mt-4 w-full rounded-full">
+                                <div className={`w-[80%] bg-brand h-2 rounded-full`}></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="rounded-lg grid grid-cols-3 bg-zinc-900 p-10 shadow-lg shadow-black/40">
+                        <Image src={"/assets/skills/tailwind.png"} alt="" width={64} height={64} />
+                        <div className="col-span-2">
+                            <p className="text-brand text-lg font-semibold">Tailwind CSS</p>
+                            <div className="bg-brand/20 h-2 mt-4 w-full rounded-full">
+                                <div className={`w-[80%] bg-brand h-2 rounded-full`}></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="rounded-lg grid grid-cols-3 bg-zinc-900 p-10 shadow-lg shadow-black/40">
+                        <Image src={"/assets/skills/github.png"} alt="" width={64} height={64} />
+                        <div className="col-span-2">
+                            <p className="text-brand text-lg font-semibold">GitHub</p>
+                            <div className="bg-brand/20 h-2 mt-4 w-full rounded-full">
+                                <div className={`w-[60%] bg-brand h-2 rounded-full`}></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="rounded-lg grid grid-cols-3 bg-zinc-900 p-10 shadow-lg shadow-black/40">
+                        <Image src={"/assets/skills/nextjs.png"} alt="" width={64} height={64} />
+                        <div className="col-span-2">
+                            <p className="text-brand text-lg font-semibold">NextJS</p>
+                            <div className="bg-brand/20 h-2 mt-4 w-full rounded-full">
+                                <div className={`w-[30%] bg-brand h-2 rounded-full`}></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="rounded-lg grid grid-cols-3 bg-zinc-900 p-10 shadow-lg shadow-black/40">
+                        <Image src={"/assets/skills/node.png"} alt="" width={64} height={64} />
+                        <div className="col-span-2">
+                            <p className="text-brand text-lg font-semibold">NodeJS</p>
+                            <div className="bg-brand/20 h-2 mt-4 w-full rounded-full">
+                                <div className={`w-[50%] bg-brand h-2 rounded-full`}></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="rounded-lg grid grid-cols-3 bg-zinc-900 p-10 shadow-lg shadow-black/40">
+                        <Image src={"/assets/skills/express.png"} alt="" width={64} height={64} />
+                        <div className="col-span-2">
+                            <p className="text-brand text-lg font-semibold">ExpressJS</p>
+                            <div className="bg-brand/20 h-2 mt-4 w-full rounded-full">
+                                <div className={`w-[50%] bg-brand h-2 rounded-full`}></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="rounded-lg grid grid-cols-3 bg-zinc-900 p-10 shadow-lg shadow-black/40">
+                        <Image src={"/assets/skills/mongo.png"} alt="" width={64} height={64} />
+                        <div className="col-span-2">
+                            <p className="text-brand text-lg font-semibold">MongoDB</p>
+                            <div className="bg-brand/20 h-2 mt-4 w-full rounded-full">
+                                <div className={`w-[50%] bg-brand h-2 rounded-full`}></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="rounded-lg grid grid-cols-3 bg-zinc-900 p-10 shadow-lg shadow-black/40">
+                        <Image src={"/assets/skills/firebase.png"} alt="" width={64} height={64} />
+                        <div className="col-span-2">
+                            <p className="text-brand text-lg font-semibold">Firebase</p>
+                            <div className="bg-brand/20 h-2 mt-4 w-full rounded-full">
+                                <div className={`w-[40%] bg-brand h-2 rounded-full`}></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

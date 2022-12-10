@@ -14,7 +14,6 @@ const Skill = ({ skill }) => {
                     <div className={`${skillWidth} bg-brand h-2 rounded-full`}></div>
                 </div>
             </div>
-
         </div>
     );
 };
