@@ -25,16 +25,16 @@ const DentalLab = () => {
                         <div className='md:col-span-4'>
                             <p className='text-lg uppercase text-brand tracking-widest font-semibold'>Project</p>
                             <h2 className='md:text-4xl mb-4'>Overview</h2>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />A Full-stack CRUD operation-based application where users can book appointments and pay for a specific appointment.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />Users can only book only one appointment for e specific service on a specific date.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />Admin can add doctors, manage them, and also can delete them. Admin can view user list and make users admin.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />The modern UI design is implemented using Tailwind CSS.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />User authentication and user authorization are implemented using firebase authentication and JWT.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />The payment system is integrated using the Stripe payment gateway.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />Private has been used to secure user-specific routes.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />Spinner has been used for a better user experience.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />APIs are handled using React Query.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />React Hook Form has been used for form validation.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />A Full-stack CRUD operation-based application where users can book appointments and pay for a specific appointment.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />Users can only book only one appointment for e specific service on a specific date.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />Admin can add doctors, manage them, and also can delete them. Admin can view user list and make users admin.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />The modern UI design is implemented using Tailwind CSS.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />User authentication and user authorization are implemented using firebase authentication and JWT.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />The payment system is integrated using the Stripe payment gateway.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />Private has been used to secure user-specific routes.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />Spinner has been used for a better user experience.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />APIs are handled using React Query.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />React Hook Form has been used for form validation.</p>
                             <div className='mt-4 flex items-center gap-6'>
                                 <Link target={"_blank"} href={"https://dental-lab-7c086.web.app/"}><button className='px-6 py-2 bg-brand '>View Demo</button></Link>
                                 <Link target={"_blank"} href={"https://github.com/nazmulrony/dental-lab-client"}><button className='px-6 py-2 bg-brand '>View Code</button></Link>

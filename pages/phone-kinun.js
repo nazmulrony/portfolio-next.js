@@ -25,14 +25,14 @@ const PhoneKinun = () => {
                         <div className='md:col-span-4'>
                             <p className='text-lg uppercase text-brand tracking-widest font-semibold'>Project</p>
                             <h2 className='md:text-4xl mb-4'>Overview</h2>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />This is a full-stack CRUD operation-based web application created using ReactJS, NodeJS, ExpressJs, and MongoDB. </p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />Regular users can book any product or can add any product to their wishlist. From my order or wishlist, they can complete the payment process for a specific product.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />Payment functionality is implemented using the stripe payment gateway.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />Sellers can add new products for selling. They can manage their added products. They can also advertise their products</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />Admin can manage both buyers and sellers. He can also verify a specific seller.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />For user authentication, firebase auth has been used. User authorization is integrated using JWT.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />User-specific private routes have been used to protect the admin routes, seller routes, and buyer routes.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />AXIOS and React query have been used for dealing with APIs</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />This is a full-stack CRUD operation-based web application created using ReactJS, NodeJS, ExpressJs, and MongoDB. </p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />Regular users can book any product or can add any product to their wishlist. From my order or wishlist, they can complete the payment process for a specific product.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />Payment functionality is implemented using the stripe payment gateway.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />Sellers can add new products for selling. They can manage their added products. They can also advertise their products</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />Admin can manage both buyers and sellers. He can also verify a specific seller.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />For user authentication, firebase auth has been used. User authorization is integrated using JWT.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />User-specific private routes have been used to protect the admin routes, seller routes, and buyer routes.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />AXIOS and React query have been used for dealing with APIs</p>
                             <div className='mt-4 flex items-center gap-6'>
                                 <Link target={"_blank"} href={"https://phone-kinun.web.app/"}><button className='px-6 py-2 bg-brand '>View Demo</button></Link>
                                 <Link target={"_blank"} href={"https://github.com/nazmulrony/phone-kinun-client"}><button className='px-6 py-2 bg-brand '>View Code</button></Link>

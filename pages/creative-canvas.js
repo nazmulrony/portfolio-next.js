@@ -36,14 +36,14 @@ const CreativeCanvas = () => {
                         <div className='md:col-span-4'>
                             <p className='text-lg uppercase text-brand tracking-widest font-semibold'>Project</p>
                             <h2 className='md:text-4xl mb-4'>Overview</h2>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />This project is about photography site having basic CRUD operations. </p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />Firebase authentication is used for user authentication.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />The Landing page has a stunning hero section. Below that it shows some of the services.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />In this basic application you can add any service with it relevant image and description.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />Any customer can create visit this site and see the service description and details.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />But if one wants to post a review to any service he must sign in or sign up.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />Customers can see their posted reviews on the My Reviews tab. One can delete or update his post.</p>
-                            <p className='flex items-center gap-1 my-2'> <GoPrimitiveDot />All the functionalities Create Read Update and Delete are dynamic.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />This project is about photography site having basic CRUD operations. </p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />Firebase authentication is used for user authentication.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />The Landing page has a stunning hero section. Below that it shows some of the services.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />In this basic application you can add any service with it relevant image and description.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />Any customer can create visit this site and see the service description and details.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />But if one wants to post a review to any service he must sign in or sign up.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />Customers can see their posted reviews on the My Reviews tab. One can delete or update his post.</p>
+                            <p className='my-2'> <GoPrimitiveDot className='inline' />All the functionalities Create Read Update and Delete are dynamic.</p>
                             <div className='mt-4 flex items-center gap-6'>
                                 <Link target={"_blank"} href={"https://creative-photography-nhrony.web.app"}><button className='px-6 py-2 bg-brand '>View Demo</button></Link>
                                 <Link target={"_blank"} href={"https://github.com/nazmulrony/Creative-canvas-client"}><button className='px-6 py-2 bg-brand '>View Code</button></Link>
