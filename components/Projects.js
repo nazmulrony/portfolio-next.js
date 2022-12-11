@@ -14,7 +14,7 @@ const Projects = () => {
                         <div className='hidden group-hover:block text-center absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                             <h2>Phone Kinun</h2>
                             <p>ReactJS</p>
-                            <Link href={""}> <button className='px-6 py-2 block mx-auto bg-brand mt-2'>Show Details</button> </Link>
+                            <Link href={"/creative-canvas"}> <button className='px-6 py-2 block mx-auto bg-brand mt-2'>Show Details</button> </Link>
                         </div>
                     </div>
                     <div className='relative grid place-items-center rounded-lg h-auto group hover:bg-zinc-900 duration-200  shadow-lg shadow-black/40'>
@@ -22,7 +22,7 @@ const Projects = () => {
                         <div className='hidden group-hover:block text-center absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                             <h2>Creative Canvas</h2>
                             <p>ReactJS</p>
-                            <Link href={""}> <button className='px-6 py-2 block mx-auto bg-brand mt-2'>Show Details</button> </Link>
+                            <Link href={"/creative-canvas"}> <button className='px-6 py-2 block mx-auto bg-brand mt-2'>Show Details</button> </Link>
                         </div>
                     </div>
                     <div className='relative grid place-items-center rounded-lg h-auto group hover:bg-zinc-900 duration-200  shadow-lg shadow-black/40'>
