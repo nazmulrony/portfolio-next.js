@@ -13,7 +13,7 @@ const About = () => {
                         </p>
                         <p>In 2022, I began exploring javascript in depth. I have studied advanced React after learning the fundamentals of javascript. I have accomplished a number of projects with React. I have also worked with NodeJS and ExpressJS, as well as MongoDB. My goal is to become a full-stack developer, so I am studying the latest technologies in full-stack development.</p>
                     </div>
-                    <div>
+                    <div className='rounded-lg overflow-hidden border-brand border-2'>
                         <Image src={"/assets/about.jpg"} alt='' width={500} height={500} />
                     </div>
                 </div>
