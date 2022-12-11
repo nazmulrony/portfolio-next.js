@@ -13,24 +13,29 @@ const Navbar = () => {
         <div className=' py-4 sticky top-0 z-50 shadow-lg shadow-black/10 bg-dark'>
             <div className='flex justify-between items-center px-4 lg:px-16'>
                 <div className="grid place-items-center ">
-                    <Image src="/assets/logo.png" alt="/" width={40} height={40} />
+                    <Link href={"/"}>
+                        <Image src="/assets/logo.png" alt="/" width={40} height={40} />
+                    </Link>
 
                 </div>
                 <ul className="hidden md:flex gap-8 uppercase">
                     <Link href="/">
                         <li className=" hover:border-b border-brand duration-150">Home</li>
                     </Link>
-                    <Link href="/">
+                    <Link href='/#about'>
                         <li className="hover:border-b border-brand duration-150">About</li>
                     </Link>
-                    <Link href="/">
+                    <Link href='#skills'>
                         <li className="hover:border-b border-brand duration-150">Skills</li>
                     </Link>
-                    <Link href="/">
+                    <Link href="#projects">
                         <li className="hover:border-b border-brand duration-150">Projects</li>
                     </Link>
-                    <Link href="/">
+                    <Link href="/#contact">
                         <li className="hover:border-b border-brand duration-150">Contact</li>
+                    </Link>
+                    <Link href="/#blogs">
+                        <li className="hover:border-b border-brand duration-150">Blogs</li>
                     </Link>
                 </ul>
                 <div onClick={handleNav} className="md:hidden">

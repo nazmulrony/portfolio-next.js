@@ -68,8 +68,8 @@ const Skills = () => {
     ]
 
     return (
-        <div className="w-full">
-            <div className="max-w-[1240px] w-full h-full mx-auto px-4">
+        <div id="skills" className="w-full">
+            <div className="max-w-[1240px] w-full h-full mx-auto px-4 py-16">
                 <p className="text-lg text-brand tracking-widest font-semibold uppercase ">Skills</p>
                 <h2 className="md:text-4xl">What I Can Do</h2>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 my-6">
