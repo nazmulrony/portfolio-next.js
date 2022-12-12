@@ -14,7 +14,7 @@ const Contact = () => {
     })
     return (
         <div id='contact' className="w-full ">
-            <div className="max-w-[1240px] w-full h-full mx-auto  px-4 py-16">
+            <div className="max-w-[1240px] w-full h-full mx-auto  px-4 py-8 lg:py-16">
                 <p className='text-brand uppercase text-lg font-semibold tracking-widest'>Contact me</p>
                 <div className='grid place-items-center gap-10 md:grid-cols-2'>
                     <div className='w-full'>

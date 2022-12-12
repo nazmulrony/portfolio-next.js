@@ -5,7 +5,7 @@ import React from 'react';
 const Projects = () => {
     return (
         <div id='projects' className="w-full">
-            <div className="max-w-[1240px] w-full h-full mx-auto px-4 py-20">
+            <div className="max-w-[1240px] w-full h-full mx-auto px-4 py-8 lg:py-16">
                 <p className="text-lg uppercase tracking-widest text-brand font-semibold">Projects</p>
                 <h2 className='md:text-4xl'>What I Built</h2>
                 <div className='grid md:grid-cols-2 p-4 gap-6'>

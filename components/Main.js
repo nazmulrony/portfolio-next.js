@@ -5,15 +5,15 @@ import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 const Main = () => {
     return (
-        <div className='w-full h-screen text-center'>
-            <div className='max-w-[1240px] w-full h-full mx-auto grid place-items-center px-4'>
+        <div className='w-full min-h-screen text-center'>
+            <div className='max-w-[1240px] w-full h-full mx-auto grid place-items-center py-8 px-4'>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-10 place-items-center'>
                     <div className='rounded-lg overflow-hidden border-brand border-2'>
                         <Image src={"/assets/profile.jpg"} alt='profile' width={500} height={500} />
                     </div>
                     <div className='md:col-span-2'>
-                        <h1 className='md:text-6xl'>Hi there,</h1>
-                        <h1 className='md:text-6xl my-4'>I am <span className='text-brand'>Md. Nazmul Hasan Rony</span></h1>
+                        <h1 className='lg:text-6xl'>Hi there,</h1>
+                        <h1 className='lg:text-6xl my-4'>I am <span className='text-brand'>Md. Nazmul Hasan Rony</span></h1>
                         <h2 className='mb-4 md:text-4xl'>A Front-End Web Developer</h2>
                         <p>
                             I enjoy creating reliable, scalable frontend applications with excellent user experiences. I am now focusing on developing responsive front-end apps while learning about back-end technologies.
